@@ -27,6 +27,11 @@ configs:
       username: ""
       password: ""
       type: oci
+    argocd-example-apps:
+      name: argocd-example-apps
+      url: https://github.com/argoproj/argocd-example-apps.git
+      username: ""
+      password: ""
 
 redis:
   image:
